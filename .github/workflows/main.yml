@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v2
       - name: create issues action
         uses: ./ # Uses an action in the root directory
-        # with:
-        #   who-to-greet: "Mona the Octocat"
+        with:
+          token: ${{secrets.TOKEN}}

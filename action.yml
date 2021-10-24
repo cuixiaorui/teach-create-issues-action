@@ -1,10 +1,9 @@
 name: "test create issues"
 description: "test create issues"
-# inputs:
-# who-to-greet: # id of input
-#   description: "Who to greet"
-#   required: true
-#   default: "World"
+inputs:
+  token: # id of input
+    description: "github token"
+    required: true
 runs:
   using: "node12"
   main: "dist/index.js"

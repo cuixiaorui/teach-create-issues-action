@@ -1,9 +1,10 @@
 const { Octokit } = require("octokit");
+const core = require("@actions/core");
 // nodejs12
 
-// TODO auth
+const token = core.getInput("token");
 const octokit = new Octokit({
-  auth: `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`,
+  auth: token,
 });
 
 // octokit api create issue
@@ -12,5 +13,5 @@ octokit.rest.issues.create({
   owner: "cuixiaorui",
   repo: "teach-create-issues-action",
   title: "heiheihei 2 ",
-  body:"hahaha"
+  body: "hahaha",
 });

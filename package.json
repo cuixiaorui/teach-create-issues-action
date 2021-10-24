@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/cuixiaorui/teach-create-issues-action-#readme",
   "dependencies": {
+    "@actions/core": "^1.6.0",
     "octokit": "^1.7.0"
   },
   "devDependencies": {
