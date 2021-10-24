@@ -1,0 +1,27 @@
+{
+  "name": "teach-create-issues-action",
+  "version": "1.0.0",
+  "description": "每日自动创建 issues - 自动执行 - 使用 js 来创建 issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuixiaorui/teach-create-issues-action-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuixiaorui/teach-create-issues-action-/issues"
+  },
+  "homepage": "https://github.com/cuixiaorui/teach-create-issues-action-#readme",
+  "dependencies": {
+    "octokit": "^1.7.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.31.1"
+  }
+}
